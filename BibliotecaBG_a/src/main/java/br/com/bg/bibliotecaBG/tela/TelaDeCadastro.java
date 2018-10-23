@@ -2,10 +2,9 @@ package br.com.bg.bibliotecaBG.tela;
 
 /**
  *
- * @author franccesco
- * @since 20/09/2018
+ * @author rubens leme
+ * @since  20/09/2018
  */
-
 public class TelaDeCadastro extends javax.swing.JFrame {
 
     /**
@@ -13,7 +12,6 @@ public class TelaDeCadastro extends javax.swing.JFrame {
      */
     public TelaDeCadastro() {
         initComponents();
-        setLocationRelativeTo(null);
     }
 
     /**
@@ -26,7 +24,6 @@ public class TelaDeCadastro extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Tela de Cadastro");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -42,10 +39,8 @@ public class TelaDeCadastro extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    /**
-     * @param args the command line arguments
-     */
     
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
 }
